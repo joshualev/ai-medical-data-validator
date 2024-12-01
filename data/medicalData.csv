@@ -1,0 +1,297 @@
+Patient ID,Date of Birth,Gender,Medical History,Current Medications,Allergies,Lab Results (Glucose mg/dL),Diagnoses,Treatment Plan,Is Valid,Issue
+P001,1980-05-14,M,Hypertension,Lisinopril,None,110,Hypertension,Continue Lisinopril,True,
+P002,1975-11-30,F,Diabetes Type 2,Metformin,Penicillin,90,Diabetes Type 2,Continue Metformin,True,
+P003,1990-07-22,F,Asthma,Albuterol,Aspirin,85,Asthma,Prescribe Albuterol,True,
+P004,2000-03-10,M,None,Amoxicillin,Penicillin,95,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P005,1985-09-18,F,Hyperlipidemia,Atorvastatin,None,200,Hyperlipidemia,Continue Atorvastatin,True,
+P006,1978-12-05,M,Hypertension; Diabetes Type 2,Lisinopril; Insulin,None,55,Diabetes Type 2,Adjust insulin dosage,False,Low glucose level not properly addressed
+P007,1965-02-08,F,Diabetes Type 1,Insulin,None,130,Diabetes Type 1,Continue insulin therapy,True,
+P008,1992-06-19,M,Asthma,None,None,80,Asthma,Prescribe Albuterol,False,Asthmatic patient not prescribed any medication
+P009,1988-09-25,F,Depression,Sertraline,None,,Depression,Continue Sertraline,True,
+P010,1974-11-12,M,Hypertension; Hyperlipidemia,Lisinopril; Atorvastatin,Aspirin,120,Hypertension; Hyperlipidemia,Continue medications,True,
+P011,1982-04-27,F,Osteoarthritis,Ibuprofen,None,90,Osteoarthritis,Recommend physical therapy,True,
+P012,2001-08-15,M,None,Amoxicillin,Penicillin,100,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P013,1995-03-30,F,Diabetes Type 2,Metformin,Latex,150,Diabetes Type 2,Adjust Metformin dosage,True,
+P014,1960-12-22,M,Heart Disease,Warfarin,Aspirin,85,Heart Disease,Continue Warfarin,True,
+P015,1970-07-07,F,Hypertension,None,None,130,Hypertension,No treatment plan provided,False,No medication prescribed for hypertension
+P016,1987-09-01,M,Asthma,Albuterol,None,85,COPD,Continue Albuterol,False,Diagnosis does not match medical history
+P017,1993-11-11,F,Anxiety,None,None,90,Anxiety,Recommend counseling,True,
+P018,1983-05-20,M,Diabetes Type 2,Glipizide,Penicillin,50,Diabetes Type 2,Continue Glipizide,False,Low glucose level not properly addressed
+P019,1976-10-05,F,Hyperlipidemia,None,None,95,Hyperlipidemia,No treatment plan provided,False,No medication prescribed for hyperlipidemia
+P020,1999-02-14,F,None,None,None,180,Normal,No action needed,False,High glucose level not addressed
+P021,1968-08-28,M,Hypertension,Lisinopril,None,110,Hypertension,Continue Lisinopril,True,
+P022,1957-03-17,F,Cancer,Chemotherapy,Penicillin,100,Cancer,Continue chemotherapy,True,
+P023,1989-07-23,M,Depression,None,None,90,Depression,Prescribe Sertraline,True,
+P024,1994-05-10,F,Diabetes Type 2,None,None,140,Diabetes Type 2,No medication prescribed,False,No medication prescribed for diabetes
+P025,1979-12-31,F,Asthma,Albuterol,Sulfa drugs,85,Asthma,Continue Albuterol,True,
+P026,2005-06-06,M,None,None,None,88,None,None,True,
+P027,1981-09-15,M,Hypertension; Diabetes Type 2,Lisinopril,None,130,Hypertension; Diabetes Type 2,Continue Lisinopril,False,Diabetic patient not prescribed any diabetes medication
+P028,1972-01-09,F,Hyperlipidemia,Atorvastatin,None,90,Hyperlipidemia,Continue Atorvastatin,True,
+P029,1996-08-21,M,Asthma,Amoxicillin,Penicillin,95,Asthma,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P030,1986-11-03,F,Depression; Anxiety,Sertraline; Alprazolam,None,85,Depression; Anxiety,Continue medications,True,
+P031,1964-04-26,M,None,Metformin,None,95,None,None,False,Medication prescribed without diagnosis
+P032,1991-07-29,F,Diabetes Type 1,Insulin,None,70,Diabetes Type 1,Adjust insulin dosage,False,Low glucose level not properly addressed
+P033,1977-02-19,M,Hypertension; Asthma,Lisinopril; Albuterol,None,120,Hypertension; Asthma,Continue medications,True,
+P034,1984-12-08,F,None,None,None,85,None,None,True,
+P035,1959-06-14,M,Heart Disease,Atorvastatin,Latex,88,Heart Disease,Continue Atorvastatin,True,
+P036,1966-09-25,F,Hypertension,None,None,110,Hypertension,Recommend lifestyle changes,True,
+P037,1997-11-30,M,Diabetes Type 2,Penicillin,None,140,Diabetes Type 2,Continue Penicillin,False,Penicillin not appropriate for diabetes treatment
+P038,1982-03-19,F,Asthma,Albuterol,None,250,Asthma,Continue Albuterol,False,Extremely high glucose levels not addressed
+P039,1973-07-17,M,COPD,None,None,85,COPD,No treatment plan provided,False,No medication prescribed for COPD
+P040,1998-05-11,F,Anxiety,None,None,80,Anxiety,Recommend counseling,True,
+P041,1980-01-23,M,Hypertension,Lisinopril,Penicillin,115,Hypertension,Continue Lisinopril,True,
+P042,1969-10-10,F,Stroke,Aspirin,None,90,Stroke,Continue Aspirin,True,
+P043,1985-08-04,M,Diabetes Type 2,None,None,150,Diabetes Type 2,Recommend diet and exercise,False,No medication prescribed for diabetes
+P044,1978-09-29,F,Osteoarthritis,Ibuprofen,None,85,Osteoarthritis,Continue Ibuprofen,True,
+P045,1992-12-16,M,None,Amoxicillin,Aspirin,95,Infection,Prescribe Amoxicillin,True,
+P046,1988-04-12,F,Hypertension,None,None,115,Hypertension,No treatment plan provided,False,No medication prescribed for hypertension
+P047,1974-01-31,M,Diabetes Type 1,Insulin,None,200,Diabetes Type 1,Adjust insulin dosage,True,
+P048,2000-05-27,F,None,Amoxicillin,Penicillin,100,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P049,1967-07-06,M,Asthma,Salbutamol,None,85,Asthma,Continue Salbutamol,True,
+P050,1993-03-23,F,Diabetes Type 2,Metformin,None,90,Hypertension,Prescribe Lisinopril,False,Diagnosis does not match prescribed medication
+P051,1986-06-15,M,Hypertension,Lisinopril,None,125,Hypertension,Adjust Lisinopril dosage,True,
+P052,1971-09-22,F,Hyperlipidemia,Atorvastatin,None,200,Hyperlipidemia,Continue Atorvastatin,True,
+P053,1989-11-07,M,Asthma,Albuterol,Sulfa drugs,80,Asthma,Continue Albuterol,True,
+P054,1995-08-18,F,Depression,None,None,85,Depression,Prescribe Sertraline,True,
+P055,1975-04-09,M,Diabetes Type 2,Metformin,None,160,Diabetes Type 2,Adjust Metformin dosage,True,
+P056,1983-12-03,F,Osteoarthritis,Ibuprofen,None,95,Osteoarthritis,Recommend physical therapy,True,
+P057,1962-07-27,M,Heart Disease,Warfarin,None,90,Heart Disease,Continue Warfarin,True,
+P058,1990-05-21,F,Anxiety,Alprazolam,Aspirin,85,Anxiety,Continue Alprazolam,True,
+P059,1979-02-14,M,Hypertension,None,None,130,Hypertension,Recommend lifestyle changes,False,No medication prescribed for hypertension
+P060,1998-10-30,F,None,Amoxicillin,Penicillin,100,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P061,1987-01-19,M,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P062,1973-06-24,F,Diabetes Type 2,Metformin,None,95,Diabetes Type 2,Continue Metformin,True,
+P063,1996-03-31,M,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P064,1984-08-16,F,Hyperlipidemia,Atorvastatin,None,190,Hyperlipidemia,Continue Atorvastatin,True,
+P065,1965-12-27,M,Depression,Sertraline,None,90,Depression,Continue Sertraline,True,
+P066,1991-05-05,F,Asthma,None,None,85,Asthma,No treatment plan provided,False,No medication prescribed for asthma
+P067,1977-09-11,M,Diabetes Type 1,Insulin,None,140,Diabetes Type 1,Continue insulin therapy,True,
+P068,1988-02-08,F,Osteoarthritis,Ibuprofen,None,90,Osteoarthritis,Recommend physical therapy,True,
+P069,1969-11-29,M,Heart Disease,Atorvastatin,None,85,Heart Disease,Continue Atorvastatin,True,
+P070,1992-07-13,F,Anxiety,None,None,80,Anxiety,Recommend counseling,True,
+P071,1980-03-28,M,Hypertension,Lisinopril,None,125,Hypertension,Adjust Lisinopril dosage,True,
+P072,1999-06-06,F,None,None,None,100,None,None,True,
+P073,1978-01-16,M,Asthma,Amoxicillin,Penicillin,95,Asthma,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P074,1986-09-22,F,Depression,Sertraline,None,85,Depression,Continue Sertraline,True,
+P075,1964-05-19,M,Diabetes Type 2,None,None,150,Diabetes Type 2,Recommend diet and exercise,False,No medication prescribed for diabetes
+P076,1994-12-12,F,Osteoarthritis,Ibuprofen,None,95,Osteoarthritis,Continue Ibuprofen,True,
+P077,1972-08-07,M,Hypertension; Diabetes Type 2,Lisinopril; Metformin,None,140,Hypertension; Diabetes Type 2,Continue medications,True,
+P078,1981-04-03,F,Anxiety,Alprazolam,None,90,Anxiety,Continue Alprazolam,True,
+P079,1966-07-28,M,Asthma,Albuterol,None,80,Asthma,Continue Albuterol,True,
+P080,1990-11-15,F,Hyperlipidemia,Atorvastatin,None,210,Hyperlipidemia,Continue Atorvastatin,True,
+P081,1975-02-20,M,Hypertension,Lisinopril,None,120,Hypertension,Continue Lisinopril,True,
+P082,1993-09-09,F,Depression,Sertraline,None,85,Depression,Continue Sertraline,True,
+P083,1987-03-25,M,Diabetes Type 2,Metformin,None,160,Diabetes Type 2,Adjust Metformin dosage,True,
+P084,1968-06-18,F,Asthma,None,None,85,Asthma,No treatment plan provided,False,No medication prescribed for asthma
+P085,1997-01-05,M,Osteoarthritis,Ibuprofen,None,90,Osteoarthritis,Recommend physical therapy,True,
+P086,1985-08-30,F,Heart Disease,Atorvastatin,None,88,Heart Disease,Continue Atorvastatin,True,
+P087,1974-12-24,M,Hypertension,None,None,130,Hypertension,Recommend lifestyle changes,False,No medication prescribed for hypertension
+P088,1998-07-17,F,None,Amoxicillin,Penicillin,100,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P089,1982-05-11,M,Depression,Sertraline,None,90,Depression,Continue Sertraline,True,
+P090,1976-09-03,F,Anxiety,None,None,85,Anxiety,Recommend counseling,True,
+P091,1995-12-29,M,Asthma,Albuterol,Sulfa drugs,80,Asthma,Continue Albuterol,True,
+P092,1983-02-26,F,Diabetes Type 2,Metformin,None,155,Diabetes Type 2,Adjust Metformin dosage,True,
+P093,1967-11-08,M,Hypertension,Lisinopril,None,125,Hypertension,Adjust Lisinopril dosage,True,
+P094,1991-06-01,F,Hyperlipidemia,Atorvastatin,None,205,Hyperlipidemia,Continue Atorvastatin,True,
+P095,1979-04-15,M,Asthma,None,None,85,Asthma,No treatment plan provided,False,No medication prescribed for asthma
+P096,1989-10-20,F,Depression,Sertraline,None,90,Depression,Continue Sertraline,True,
+P097,1973-08-13,M,Diabetes Type 1,Insulin,None,140,Diabetes Type 1,Continue insulin therapy,True,
+P098,1994-12-07,F,Osteoarthritis,Ibuprofen,None,95,Osteoarthritis,Recommend physical therapy,True,
+P099,1981-03-30,M,Hypertension,None,None,130,Hypertension,Recommend lifestyle changes,False,No medication prescribed for hypertension
+P100,1969-07-05,F,None,None,None,100,None,None,True,
+Patient ID,Date of Birth,Gender,Medical History,Current Medications,Allergies,Lab Results (Glucose mg/dL),Diagnoses,Treatment Plan,Is Valid,Issue
+P007,1982-04-12,F,Anemia,Iron Supplements,None,95,Anemia,Continue Iron Supplements,True,
+P008,1965-08-23,M,Coronary Artery Disease,Aspirin,None,100,Coronary Artery Disease,Continue Aspirin,True,
+P009,1995-06-15,F,Diabetes Type 1,Insulin,None,180,Diabetes Type 1,Adjust insulin dosage,True,
+P010,1970-09-30,M,Asthma,None,None,85,Asthma,None,False,Asthma patient not prescribed medication
+P011,1988-11-11,F,Osteoporosis,Calcium Supplements,None,90,Osteoporosis,Continue Calcium Supplements,True,
+P012,2002-05-25,M,None,Penicillin,Penicillin,100,Infection,Prescribe Penicillin,False,Prescribed Penicillin despite Penicillin allergy
+P013,1993-10-05,F,Hyperthyroidism,Methimazole,None,95,Hyperthyroidism,Continue Methimazole,True,
+P014,1985-02-17,M,Hypertension,None,None,130,Hypertension,None,False,Hypertension patient not prescribed medication
+P015,1977-07-19,F,Migraine,Sumatriptan,None,90,Migraine,Continue Sumatriptan,True,
+P016,1999-12-31,M,None,None,None,100,Healthy,None,True,
+P017,1969-03-27,F,Diabetes Type 2,None,None,200,Diabetes Type 2,None,False,Diabetic patient not prescribed medication
+P018,1981-06-22,M,Allergic Rhinitis,Antihistamines,None,90,Allergic Rhinitis,Continue Antihistamines,True,
+P019,1996-08-14,F,Depression,Sertraline,None,95,Depression,Continue Sertraline,True,
+P020,1971-01-08,M,Peptic Ulcer Disease,NSAIDs,None,100,Peptic Ulcer Disease,Prescribe NSAIDs,False,Prescribed NSAIDs which can worsen ulcers
+P021,1984-04-27,F,Hypertension,Lisinopril,None,110,Hypertension,Continue Lisinopril,True,
+P022,1992-11-09,M,Hyperlipidemia,None,None,250,Hyperlipidemia,None,False,Hyperlipidemia patient not prescribed medication
+P023,2001-07-03,F,Anxiety Disorder,None,None,90,Anxiety Disorder,None,False,Anxiety patient not prescribed medication
+P024,1976-05-20,M,None,Amoxicillin,Penicillin,95,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P025,1989-09-12,F,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P026,1968-12-18,M,Chronic Kidney Disease,NSAIDs,None,100,Chronic Kidney Disease,Prescribe NSAIDs,False,NSAIDs contraindicated in kidney disease
+P027,1983-03-05,F,Hypertension,Losartan,None,115,Hypertension,Continue Losartan,True,
+P028,1994-08-30,M,Diabetes Type 2,Metformin,None,190,Diabetes Type 2,Continue Metformin,True,
+P029,1986-02-23,F,Iron Deficiency Anemia,None,None,95,Anemia,None,False,Anemia patient not prescribed iron supplements
+P030,2003-10-16,M,None,None,None,90,Healthy,None,True,
+P031,1974-06-11,F,Asthma,None,None,85,Asthma,None,False,Asthma patient not prescribed medication
+P032,1980-01-22,M,Hypertension,Lisinopril,None,120,Hypertension,Continue Lisinopril,True,
+P033,1991-04-08,F,Diabetes Type 1,None,None,160,Diabetes Type 1,None,False,Diabetic patient not prescribed insulin
+P034,1979-09-29,M,Hyperlipidemia,Atorvastatin,None,240,Hyperlipidemia,Continue Atorvastatin,True,
+P035,1997-07-05,F,None,Penicillin,Penicillin,95,Infection,Prescribe Penicillin,False,Prescribed Penicillin despite Penicillin allergy
+P036,1967-11-14,M,Depression,None,None,100,Depression,None,False,Depression patient not prescribed medication
+P037,1985-05-07,F,Osteoarthritis,Ibuprofen,None,95,Osteoarthritis,Continue Ibuprofen,True,
+P038,1992-08-19,M,Hypertension,None,None,125,Hypertension,None,False,Hypertension patient not prescribed medication
+P039,1975-02-28,F,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P040,1987-12-03,M,Chronic Liver Disease,Acetaminophen,None,100,Chronic Liver Disease,Prescribe Acetaminophen,False,Acetaminophen contraindicated in liver disease
+P041,1998-06-27,F,Anxiety Disorder,Lorazepam,None,90,Anxiety Disorder,Continue Lorazepam,True,
+P042,1972-03-15,M,Diabetes Type 2,None,None,210,Diabetes Type 2,None,False,Diabetic patient not prescribed medication
+P043,1986-09-09,F,Hypertension,Amlodipine,None,115,Hypertension,Continue Amlodipine,True,
+P044,1990-11-21,M,None,None,None,100,Healthy,None,True,
+P045,1983-07-16,F,Depression,St. John's Wort,None,95,Depression,Continue herbal supplements,True,
+P046,1978-02-05,M,Heart Failure,NSAIDs,None,100,Heart Failure,Prescribe NSAIDs,False,NSAIDs contraindicated in heart failure
+P047,1995-08-12,F,Asthma,None,None,85,Asthma,None,False,Asthma patient not prescribed medication
+P048,1966-05-24,M,Hypertension,Lisinopril,None,130,Hypertension,Continue Lisinopril,True,
+P049,1982-01-03,F,Diabetes Type 1,Insulin,None,180,Diabetes Type 1,Adjust insulin dosage,True,
+P050,1999-04-29,M,None,None,None,90,Healthy,None,True,
+P051,1970-12-14,F,Anemia,None,None,95,Anemia,None,False,Anemia patient not prescribed iron supplements
+P052,1989-06-07,M,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P053,1994-09-25,F,Hypertension,None,None,125,Hypertension,None,False,Hypertension patient not prescribed medication
+P054,1973-03-19,M,Chronic Kidney Disease,Metformin,None,100,Chronic Kidney Disease,Prescribe Metformin,False,Metformin contraindicated in kidney disease
+P055,1987-07-30,F,Depression,Sertraline,None,95,Depression,Continue Sertraline,True,
+P056,1991-11-11,M,Diabetes Type 2,Metformin,None,200,Diabetes Type 2,Continue Metformin,True,
+P057,1980-05-02,F,None,Amoxicillin,Penicillin,95,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P058,1976-08-18,M,Hyperlipidemia,None,None,260,Hyperlipidemia,None,False,Hyperlipidemia patient not prescribed medication
+P059,1993-12-28,F,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P060,1969-04-06,M,Osteoporosis,None,None,90,Osteoporosis,None,False,Osteoporosis patient not prescribed medication
+P061,1984-10-10,F,Hypertension,Bisoprolol,None,110,Hypertension,Continue Bisoprolol,True,
+P062,1990-02-13,M,Peptic Ulcer Disease,NSAIDs,None,100,Peptic Ulcer Disease,Prescribe NSAIDs,False,Prescribed NSAIDs which can worsen ulcers
+P063,1988-06-22,F,Diabetes Type 1,Insulin,None,170,Diabetes Type 1,Adjust insulin dosage,True,
+P064,1977-01-29,M,Asthma,None,None,85,Asthma,None,False,Asthma patient not prescribed medication
+P065,1995-09-17,F,Anxiety Disorder,Lorazepam,None,90,Anxiety Disorder,Continue Lorazepam,True,
+P066,1968-11-25,M,Chronic Liver Disease,Acetaminophen,None,100,Chronic Liver Disease,Prescribe Acetaminophen,False,Acetaminophen contraindicated in liver disease
+P067,1983-07-08,F,Hypertension,None,None,130,Hypertension,None,False,Hypertension patient not prescribed medication
+P068,1992-03-03,M,Diabetes Type 2,Metformin,None,220,Diabetes Type 2,Continue Metformin,True,
+P069,1979-06-14,F,None,Penicillin,Penicillin,95,Infection,Prescribe Penicillin,False,Prescribed Penicillin despite Penicillin allergy
+P070,1985-12-27,M,Hyperlipidemia,Atorvastatin,None,240,Hyperlipidemia,Continue Atorvastatin,True,
+P071,1997-05-05,F,Depression,None,None,95,Depression,None,False,Depression patient not prescribed medication
+P072,1967-09-20,M,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P073,1981-01-11,F,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P074,1990-04-26,M,Diabetes Type 1,None,None,160,Diabetes Type 1,None,False,Diabetic patient not prescribed insulin
+P075,1974-10-15,F,Osteoporosis,None,None,90,Osteoporosis,None,False,Osteoporosis patient not prescribed medication
+P076,1988-02-02,M,None,None,None,100,Healthy,None,True,
+P077,1994-08-19,F,Hypertension,Losartan,None,120,Hypertension,Continue Losartan,True,
+P078,1982-05-27,M,Asthma,None,None,85,Asthma,None,False,Asthma patient not prescribed medication
+P079,1971-12-05,F,Anemia,Iron Supplements,None,95,Anemia,Continue Iron Supplements,True,
+P080,1986-06-16,M,Chronic Kidney Disease,NSAIDs,None,100,Chronic Kidney Disease,Prescribe NSAIDs,False,NSAIDs contraindicated in kidney disease
+P081,1991-09-29,F,Depression,Sertraline,None,95,Depression,Continue Sertraline,True,
+P082,1978-03-12,M,Diabetes Type 2,None,None,200,Diabetes Type 2,None,False,Diabetic patient not prescribed medication
+P083,1985-07-23,F,Hypertension,Amlodipine,None,115,Hypertension,Continue Amlodipine,True,
+P084,1996-11-07,M,None,Amoxicillin,Penicillin,95,Infection,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P085,1966-05-18,F,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P086,1979-09-01,M,Chronic Liver Disease,Acetaminophen,None,100,Chronic Liver Disease,Prescribe Acetaminophen,False,Acetaminophen contraindicated in liver disease
+P087,1989-12-30,F,Hypertension,None,None,125,Hypertension,None,False,Hypertension patient not prescribed medication
+P088,1994-04-15,M,Asthma,None,None,85,Asthma,None,False,Asthma patient not prescribed medication
+P089,1972-08-06,F,Diabetes Type 1,Insulin,None,180,Diabetes Type 1,Adjust insulin dosage,True,
+P090,1987-01-19,M,Anxiety Disorder,Lorazepam,None,90,Anxiety Disorder,Continue Lorazepam,True,
+P091,1993-05-28,F,Hypertension,Lisinopril,None,110,Hypertension,Continue Lisinopril,True,
+P092,1980-09-22,M,Hyperlipidemia,None,None,250,Hyperlipidemia,None,False,Hyperlipidemia patient not prescribed medication
+P093,1976-01-03,F,None,None,None,100,Healthy,None,True,
+P094,1995-05-16,M,Depression,None,None,95,Depression,None,False,Depression patient not prescribed medication
+P095,1969-07-31,F,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+P096,1983-11-27,M,Hypertension,None,None,130,Hypertension,None,False,Hypertension patient not prescribed medication
+P097,1990-03-09,F,Osteoporosis,None,None,90,Osteoporosis,None,False,Osteoporosis patient not prescribed medication
+P098,1977-07-21,M,Diabetes Type 2,Metformin,None,210,Diabetes Type 2,Continue Metformin,True,
+P099,1986-12-06,F,None,Penicillin,Penicillin,95,Infection,Prescribe Penicillin,False,Prescribed Penicillin despite Penicillin allergy
+P100,1992-04-20,M,Asthma,Albuterol,None,85,Asthma,Continue Albuterol,True,
+Patient ID,Date of Birth,Gender,Medical History,Current Medications,Allergies,Lab Results (Glucose mg/dL),Diagnoses,Treatment Plan,Is Valid,Issue
+P007,1965-04-23,F,Coronary Artery Disease,Aspirin,None,105,Coronary Artery Disease,Continue Aspirin,True,
+P008,1982-08-17,M,Type 1 Diabetes,Insulin,None,250,Type 1 Diabetes,Adjust insulin dosage,True,
+P009,1995-06-12,F,Anemia,Iron Supplements,None,90,Anemia,Continue Iron Supplements,True,
+P010,1970-01-30,M,Hypertension,Lisinopril,Lisinopril,115,Hypertension,Continue Lisinopril,False,Listed allergy to Lisinopril but prescribed Lisinopril
+P011,1988-11-09,F,Depression,Sertraline,None,100,Depression,Continue Sertraline,True,
+P012,2002-02-28,M,Asthma,None,None,80,Asthma,None prescribed,False,Asthma patient not prescribed any medication
+P013,1977-07-19,F,Osteoporosis,Alendronate,None,95,Osteoporosis,Continue Alendronate,True,
+P014,1983-12-03,M,Hyperthyroidism,Methimazole,Penicillin,90,Hyperthyroidism,Continue Methimazole,True,
+P015,1992-09-15,F,Allergic Rhinitis,Loratadine,None,85,Allergic Rhinitis,Continue Loratadine,True,
+P016,1969-05-27,M,None,None,None,100,Healthy,None needed,True,
+P017,1981-03-11,F,Diabetes Type 2,None,None,220,Diabetes Type 2,None prescribed,False,Diabetic patient not prescribed any diabetes medication
+P018,1976-10-06,M,Epilepsy,Carbamazepine,None,90,Epilepsy,Continue Carbamazepine,True,
+P019,1993-08-21,F,Migraine,Ibuprofen,None,95,Migraine,Continue Ibuprofen,True,
+P020,1955-12-14,M,Chronic Kidney Disease,Lisinopril,None,110,Chronic Kidney Disease,Adjust medication dosage,True,
+P021,1989-04-08,F,Hypertension,Amlodipine,Amlodipine,115,Hypertension,Continue Amlodipine,False,Allergy to Amlodipine but prescribed Amlodipine
+P022,1996-07-31,M,Anxiety Disorder,Diazepam,None,100,Anxiety Disorder,Continue Diazepam,True,
+P023,1971-11-25,F,Rheumatoid Arthritis,Methotrexate,None,95,Rheumatoid Arthritis,Continue Methotrexate,True,
+P024,1984-02-13,M,High Cholesterol,None,None,240,Hyperlipidemia,None prescribed,False,High cholesterol not addressed with medication
+P025,1990-06-16,F,Asthma,Penicillin,Penicillin,85,Asthma,Prescribe Penicillin,False,Prescribed Penicillin despite allergy
+P026,1963-09-29,M,Glaucoma,Latanoprost,None,100,Glaucoma,Continue Latanoprost,True,
+P027,1979-05-05,F,Hypertension,Lisinopril,None,180,Hypertension,Discontinue Lisinopril,False,High blood pressure not properly managed
+P028,1985-12-22,M,Diabetes Type 2,Metformin,None,95,Diabetes Type 2,Continue Metformin,True,
+P029,1994-03-08,F,Bronchitis,None,None,80,Bronchitis,None prescribed,False,Bronchitis not treated with any medication
+P030,1974-08-19,M,Peripheral Neuropathy,Gabapentin,None,90,Peripheral Neuropathy,Continue Gabapentin,True,
+P031,1987-10-10,F,Pregnancy,Prenatal Vitamins,None,95,Pregnancy,Continue Prenatal Vitamins,True,
+P032,1960-01-17,M,Stroke,Aspirin,None,100,Stroke,Continue Aspirin,True,
+P033,1991-06-26,F,Diabetes Type 1,None,None,60,Diabetes Type 1,None prescribed,False,Type 1 Diabetes patient not prescribed insulin
+P034,1972-09-07,M,Hypertension,Aspirin,None,120,Hypertension,Prescribe Lisinopril,False,Hypertension not properly managed with appropriate medication
+P035,1980-11-12,F,Osteoarthritis,Ibuprofen,None,90,Osteoarthritis,Continue Ibuprofen,True,
+P036,1997-02-04,M,Depression,None,None,100,Depression,None prescribed,False,Depression patient not prescribed any medication
+P037,1967-04-15,F,Chronic Pain,Oxycodone,None,95,Chronic Pain,Continue Oxycodone,True,
+P038,1983-07-28,M,Gout,Allopurinol,None,90,Gout,Continue Allopurinol,True,
+P039,1995-10-03,F,Anemia,None,None,85,Anemia,None prescribed,False,Anemia not treated with iron supplements
+P040,1958-12-20,M,Heart Failure,Furosemide,None,110,Heart Failure,Continue Furosemide,True,
+P041,1986-05-13,F,Asthma,Albuterol,Albuterol,80,Asthma,Continue Albuterol,False,Listed allergy to Albuterol but prescribed Albuterol
+P042,1975-08-29,M,Liver Disease,None,None,100,Liver Disease,None prescribed,False,Liver disease not managed with any treatment plan
+P043,1992-11-16,F,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P044,1962-03-03,M,Chronic Obstructive Pulmonary Disease (COPD),Tiotropium,None,90,COPD,Continue Tiotropium,True,
+P045,1978-06-24,F,Osteoporosis,None,None,95,Osteoporosis,None prescribed,False,Osteoporosis patient not prescribed any medication
+P046,1984-09-30,M,Diabetes Type 2,Metformin,None,250,Diabetes Type 2,Continue Metformin,False,High glucose levels not properly managed
+P047,1990-12-08,F,Hyperlipidemia,Atorvastatin,None,210,Hyperlipidemia,Continue Atorvastatin,True,
+P048,1966-02-19,M,Hyperthyroidism,None,None,90,Hyperthyroidism,None prescribed,False,Hyperthyroidism not treated with medication
+P049,1973-07-15,F,Breast Cancer,Chemotherapy,None,100,Breast Cancer,Continue Chemotherapy,True,
+P050,1989-11-27,M,Anxiety Disorder,Alprazolam,None,95,Anxiety Disorder,Continue Alprazolam,True,
+P051,1996-05-09,F,Type 1 Diabetes,Insulin,None,80,Type 1 Diabetes,Continue Insulin,True,
+P052,1957-09-22,M,Hypertension,None,None,130,Hypertension,None prescribed,False,Hypertension patient not prescribed any medication
+P053,1982-12-31,F,Anemia,Iron Supplements,None,90,Anemia,Continue Iron Supplements,True,
+P054,1976-03-14,M,Asthma,Albuterol,Sulfa Drugs,85,Asthma,Continue Albuterol,True,
+P055,1993-06-07,F,Diabetes Type 2,Metformin,Metformin,95,Diabetes Type 2,Continue Metformin,False,Listed allergy to Metformin but prescribed Metformin
+P056,1964-10-19,M,Chronic Kidney Disease,None,None,100,Chronic Kidney Disease,None prescribed,False,Chronic Kidney Disease not managed with any treatment plan
+P057,1985-01-05,F,Hypertension,Amlodipine,None,115,Hypertension,Continue Amlodipine,True,
+P058,1979-08-13,M,Depression,Sertraline,None,100,Depression,Continue Sertraline,True,
+P059,1991-11-01,F,Asthma,None,None,80,Asthma,None prescribed,False,Asthma patient not prescribed any medication
+P060,1959-02-25,M,Gout,None,None,90,Gout,None prescribed,False,Gout not treated with medication
+P061,1987-05-16,F,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P062,1974-07-29,M,Diabetes Type 2,Insulin,None,60,Diabetes Type 2,Adjust insulin dosage,False,Low glucose level not properly addressed
+P063,1983-10-11,F,Thyroid Disorder,Levothyroxine,None,95,Thyroid Disorder,Continue Levothyroxine,True,
+P064,1995-12-06,M,Anemia,Iron Supplements,None,90,Anemia,Continue Iron Supplements,True,
+P065,1961-03-18,F,Osteoporosis,Alendronate,None,95,Osteoporosis,Continue Alendronate,True,
+P066,1977-06-30,M,Hypertension,None,None,120,Hypertension,None prescribed,False,Hypertension patient not prescribed any medication
+P067,1986-09-12,F,Allergic Rhinitis,None,None,85,Allergic Rhinitis,None prescribed,False,Allergic Rhinitis patient not prescribed any medication
+P068,1992-12-24,M,Asthma,Amoxicillin,Penicillin,80,Asthma,Prescribe Amoxicillin,False,Prescribed Amoxicillin despite Penicillin allergy
+P069,1969-04-21,F,Hyperlipidemia,Atorvastatin,None,200,Hyperlipidemia,Continue Atorvastatin,True,
+P070,1980-07-03,M,Diabetes Type 1,Insulin,None,250,Diabetes Type 1,Adjust insulin dosage,True,
+P071,1994-10-15,F,Depression,None,None,100,Depression,None prescribed,False,Depression patient not prescribed any medication
+P072,1956-01-28,M,Chronic Pain,None,None,95,Chronic Pain,None prescribed,False,Chronic Pain not managed with any treatment plan
+P073,1988-06-09,F,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P074,1971-09-27,M,Asthma,Albuterol,None,80,Asthma,Continue Albuterol,True,
+P075,1985-12-05,F,Osteoarthritis,Ibuprofen,None,90,Osteoarthritis,Continue Ibuprofen,True,
+P076,1978-02-16,M,Anemia,None,None,85,Anemia,None prescribed,False,Anemia not treated with iron supplements
+P077,1990-05-29,F,Diabetes Type 2,Metformin,None,220,Diabetes Type 2,Continue Metformin,False,High glucose levels not properly managed
+P078,1965-08-11,M,Hyperthyroidism,Methimazole,None,90,Hyperthyroidism,Continue Methimazole,True,
+P079,1979-11-23,F,Hypertension,Amlodipine,None,115,Hypertension,Continue Amlodipine,True,
+P080,1993-03-06,M,Asthma,None,None,80,Asthma,None prescribed,False,Asthma patient not prescribed any medication
+P081,1981-05-18,F,Diabetes Type 1,Insulin,None,95,Diabetes Type 1,Continue Insulin,True,
+P082,1968-08-30,M,Chronic Obstructive Pulmonary Disease (COPD),Tiotropium,None,90,COPD,Continue Tiotropium,True,
+P083,1984-11-12,F,Breast Cancer,None,None,100,Breast Cancer,None prescribed,False,Cancer patient not provided with treatment plan
+P084,1975-02-24,M,Hypertension,Lisinopril,None,130,Hypertension,Adjust medication dosage,True,
+P085,1992-06-06,F,Allergic Rhinitis,Loratadine,None,85,Allergic Rhinitis,Continue Loratadine,True,
+P086,1963-09-18,M,Diabetes Type 2,Metformin,None,95,Diabetes Type 2,Continue Metformin,True,
+P087,1977-12-30,F,Anemia,Iron Supplements,None,90,Anemia,Continue Iron Supplements,True,
+P088,1986-04-14,M,Asthma,Albuterol,None,80,Asthma,Continue Albuterol,True,
+P089,1995-07-26,F,Hyperlipidemia,Atorvastatin,None,210,Hyperlipidemia,Continue Atorvastatin,True,
+P090,1960-10-08,M,Hypertension,None,None,120,Hypertension,None prescribed,False,Hypertension patient not prescribed any medication
+P091,1989-01-20,F,Depression,Sertraline,None,100,Depression,Continue Sertraline,True,
+P092,1973-05-02,M,Osteoporosis,None,None,95,Osteoporosis,None prescribed,False,Osteoporosis patient not prescribed any medication
+P093,1982-08-15,F,Asthma,Penicillin,Penicillin,85,Asthma,Prescribe Penicillin,False,Prescribed Penicillin despite allergy
+P094,1994-11-27,M,Gout,Allopurinol,None,90,Gout,Continue Allopurinol,True,
+P095,1966-02-09,F,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P096,1978-06-21,M,Diabetes Type 2,None,None,220,Diabetes Type 2,None prescribed,False,Diabetic patient not prescribed any diabetes medication
+P097,1987-09-03,F,Anemia,Iron Supplements,None,90,Anemia,Continue Iron Supplements,True,
+P098,1991-12-16,M,Asthma,Albuterol,None,80,Asthma,Continue Albuterol,True,
+P099,1970-04-28,F,Hypertension,Amlodipine,None,115,Hypertension,Continue Amlodipine,True,
+P100,1983-07-10,M,Depression,None,None,100,Depression,None prescribed,False,Depression patient not prescribed any medication
+P101,1996-10-22,F,Diabetes Type 1,Insulin,None,60,Diabetes Type 1,Adjust insulin dosage,False,Low glucose level not properly addressed
+P102,1962-02-15,M,Chronic Kidney Disease,Lisinopril,None,110,Chronic Kidney Disease,Adjust medication dosage,True,
+P103,1976-05-27,F,Hypertension,Lisinopril,None,115,Hypertension,Continue Lisinopril,True,
+P104,1985-08-09,M,Asthma,None,None,80,Asthma,None prescribed,False,Asthma patient not prescribed any medication
+P105,1992-11-19,F,Anemia,Iron Supplements,None,90,Anemia,Continue Iron Supplements,True,
+P106,1964-01-02,M,Hyperlipidemia,Atorvastatin,None,200,Hyperlipidemia,Continue Atorvastatin,True,
